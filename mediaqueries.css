@@ -101,5 +101,9 @@
         height: 1rem;
         width: 1rem;
     }
+    .contact-info-upper-container{
+        display: grid;
+        width: 300px
+    }
 }
    
