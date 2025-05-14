@@ -97,5 +97,9 @@
     .text-container{
         text-align: justify;
     }
+    .contact-icon{
+        height: 1rem;
+        width: 1rem;
+    }
 }
    
