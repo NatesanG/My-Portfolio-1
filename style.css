@@ -331,6 +331,7 @@ article .icon{
 .email-icon{
     height: 3rem;
     width: 3rem;
+    padding: 0.2rem;
 }
 .linkedln-icon{
     padding: 0.4rem;
