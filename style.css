@@ -313,7 +313,7 @@ section{
 }
 article{
     display: flex;
-    width: 6.5rem;
+    width: 7rem;
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
@@ -373,3 +373,4 @@ footer{
     height: 20vh;
     margin: 0 1rem;
 }
+
