@@ -166,7 +166,6 @@ section{
 .section__pic-container img{
     border-radius: 100%;
     border: 7px solid darkorchid;
-    background-size: contain;
 }
 .section__text{
     align-self: center;
@@ -304,19 +303,21 @@ section{
 }
 .article-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.7rem;
     justify-content: space-around;
     padding: 20px;
 }
 article{
     display: flex;
-    width: 7rem;
+    justify-content: center;
+    align-items: center;
+    width: 6.5rem;
     justify-content: space-between;
     align-items: center;
-    margin-left: -20px;
 }
 article .icon{
     cursor: default;
@@ -372,5 +373,3 @@ footer{
     height: 20vh;
     margin: 0 1rem;
 }
-
-
