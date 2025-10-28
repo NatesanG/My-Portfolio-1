@@ -267,6 +267,7 @@ section{
     text-align: center;
     color: black;
     transition: .3s all ease;
+    margin-bottom: 2rem;
 }
 
 .details-container p{
