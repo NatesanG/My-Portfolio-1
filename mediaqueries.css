@@ -26,6 +26,12 @@
     section, .section-container{
         height: fit-content;
     }
+    .section-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     section{
         margin: 0 5%;
     }
@@ -104,6 +110,26 @@
     .contact-info-upper-container{
         display: grid;
         width: 300px
+    }
+    .section-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section__pic-container-1 img{
+        width: 200px;
+        height: 200px;
+    }
+    .section__text__p1{
+        margin-top: 20px;
+    }
+    .contact-info-upper-container{
+        width: 240px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
    
